@@ -15,10 +15,10 @@ begin
   begin
     if (i_SEL='0') then
       o_B <= i_A;
-      o_C <= '0'
-      else
+      o_C <= '0';
+    else
       o_C <= i_A;
-      o_B <= '0'
+      o_B <= '0';
     end if;
   end process;
 end arch_1;
